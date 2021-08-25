@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+int main(void){
+	int metro;
+	float yarda;
+	printf("CONVERTIR DE METROS A YARDAS\n");
+	printf("INGRESE CANTIDAD DE METROS\n");
+	scanf("%d",&metro);
+	yarda=metro*1.093;
+	printf("LA EQUIVALENCIA EN YARDAS ES: %.2f",yarda);
+	return 0;
+	}
